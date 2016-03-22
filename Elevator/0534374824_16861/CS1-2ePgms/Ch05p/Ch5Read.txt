@@ -1,0 +1,15 @@
+The programs in this chapter run without modification runs as presented  in the text. Note that some of the code fragments in this chapter were modified to create an executable program.
+
+ 1.	P05-01.C 	 Logical expressions
+ 2.	P05-02.C 	 Relational operators
+ 3.	P05-03.C 	 Two-way selection
+ 4.	P05-04.C 	 Nested if statements
+ 5.	P05-05.C 	 Calculate taxes
+ 6.	P05-06.C 	*Demonstrate the switch statement
+ 7.	P05-07.C 	*Multivalued case statements
+ 8.	P05-08.C 	 Student grading
+ 9.	P05-09.C 	 Convert score to grade
+10.	P05-10.C 	 Demonstrate classification functions
+11.	P05-11.C 	 Code for menu-driven calculator
+12.	P05-12.C 	 Examples of poor and good nesting styles
+			*Program Fragment: Not included

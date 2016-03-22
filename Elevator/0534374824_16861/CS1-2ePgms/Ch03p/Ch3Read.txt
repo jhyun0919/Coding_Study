@@ -1,0 +1,18 @@
+The programs in this chapter run as presented in the text.
+
+ 1.	P3-1.C	Binary expressions
+ 2.	P3-2.C	Demonstration of compound assignments
+ 3.	P3-3.C	Demonstrate postfix increment
+ 4.	P3-4.C	Demonstrate prefix incremen
+ 5.	P3-5.C	Precedence
+ 6.	P3-6.C	Evaluating expressions
+ 7. 	P3-7.C	Implicit type conversion
+ 8.	P3-8.C	Explicit casts
+ 9.	P3-9.C	Calculate quotient and remainder
+10.	P3-10.C	Print right digit of integer
+11.	P3-11.C	Calculate average of four numbers 
+12.	P3-12.C	Convert radians to degrees
+13.	P3-13.C	Fahrenheit to Celsius
+14.	P3-14.C	Calculate sales total 
+15.	P3-15.C	Calculate student score 
+16.	P3-16.C	Program that will confuse the user 

@@ -1,0 +1,22 @@
+The programs in this chapter run without modification runs as presented
+in the text. Program 14 is pseudocode and therefore not included. All of
+the Morse code functions are combined into one program, P11-16ff.c.
+
+	 1.	P11-01.C Reading strings
+	 2.	P11-02.C Demonstrate string edit set
+	 3.	P11-03.C Delete leading shitespace
+	 4.	P11-04.C Demonstrate fgets operation
+	 5.	P11-05.C Demonstration of puts string
+	 6.	P11-06.C Typewriter program
+	 7.	P11-07.C Print selected sentences
+	 8.	P11-08.C Print file double-spaced
+	 9.	P11-09.C Print days of the week
+	10.	P11-10.C Add left margin
+	11.	P11-11.C Build name array in heap
+	12.	P11-12.C Demonstrate strtol
+	13.	P11-13.C Parsing a string with strtok
+	14.	P11-14.C Compare packed string function
+	15.	P11-15.C Memory formatting
+	16.	P11-16.C Pseudocode for format dollard (not included)
+	17.	P11-17.C Format dollars
+	18.	P11-18ff.C Morse code

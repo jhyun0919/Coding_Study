@@ -1,0 +1,24 @@
+Some of the bit variables in these programs were changed to short
+to accomodate systems with 32 bit integer lengths. 
+
+For some systems, problem 3 has been modified to add an fseek
+command to support the Borland compiler.
+
+Otherwise, the programs in this chapter run without modification runs 
+as presented in the text. 
+
+1.	P15-01.C 	Simple bitwise and demonstration
+2.	P15-02.C 	Simple inclusive or demonstration
+3.	P15-03.C 	Simple exclusive or demonstration
+4.	P15-04.C 	One's complement
+5.	P15-05.C 	Simple shift left demonstration
+6.	P15-06.C 	Simple shift right demonstration
+7.	P15-07.C 	Convert words to uppercase
+8.	P15-08.C 	Convert words to lowercase
+9.	P15-09.C 	Reverse case of words
+10.	P15-10.C 	Print binary number revisited
+11.	P15-11.C 	Rotate right function
+
+??????The following binary files are required for this chapter. Note that you may need to recreate them for your hardware system.
+	 1.	int_evens.bin
+	 2.	int_odds.bin

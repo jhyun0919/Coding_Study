@@ -1,0 +1,33 @@
+With the exception of Program P13-04 and P13-05, the programs in this chapter 
+run without modification as presented in the text. Note that some programs 
+in the text, such as programs 3 and 4, have been combined. Programs 11 and 
+13 are not included because they are pseudocode.
+
+You will need to make sure that the input files are in the correct
+directory/folder. You should also check to make sure the path is correct
+for these files. Some of the programs on the solutions disk may have been
+modified to check for a successful file opening.
+
+1.	P13-01.c 	Read file of integers
+2.	P13-02/3.c	Read student file and Write structured data
+3.	P13-04.c	Append two binary files
+				We added a statement to seek end of file.
+				
+				We have included a program to create binary files.
+				See below.
+4.	P13-05.c	Text to binary student file
+				In getData (line 72, page 676), remove dereference of
+				ioResult so that it reads:
+					if (ioResult)
+5.	P13-06.c	Print student data
+6.	P13-07ff.c	Random file application
+7.	P13-11 		Pseudocode for merging (not included)
+8.	P13-12.c	Merge two files
+9.	P13-13 		Pseudocode for file update (not included)
+
+The following files are also available on the solutions disk. You will have
+to recreate the binary files for your hardware system. We have provided
+two program to help.
+	 1.	P13-stu.txt	Student text file.
+	 2.	P13MkBin.c	Make binary files of integers.
+	 3.	P13MkMrg.c	Make binary files for merge.

@@ -1,0 +1,15 @@
+The programs in this chapter run without modification runs as presented
+in the text. Note, however, that P12-09 gives different results, as shown
+in the program results, for big and little endian computers. Programs 9 
+through 16 are all included in the Elevator source file, P12-09ff.C.
+
+1.	P12-01.C 	Print cable TV stations
+2.	P12-02.C 	Multiply fractions
+3.	P12-03.C 	Clock simulation with pointers
+4.	P12-04.C 	Sort array of student structures
+5.	P12-05.C 	Passing and returning structures
+6.	P12-06.C 	Passing structures through pointers
+7.	P12-07.C 	Demonstrate effect of unions
+8.	P12-08.C 	Demonstrate unions in structures
+9.	P12-09.C 	Convert IP address to long	
+10.	P12-10ff.C	Elevator

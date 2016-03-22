@@ -1,0 +1,48 @@
+﻿빌드 시작: 2015-10-22 오전 9:20:38
+     1>2 노드의 "C:\Users\jhyun19\Desktop\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_body.h(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_body.h(82): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : 'fscanf' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_body.h(85): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : 'fscanf' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_body.h(118): warning C4013: 'Move_A'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_body.h(135): warning C4013: 'Move_B'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_body.h(169): warning C4013: 'DoorOpen_A'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_body.h(182): warning C4013: 'DoorOpen_B'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_body.h(111): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_body.h(348): warning C4101: 'New' :참조되지 않은 지역 변수입니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(23): error C2011: 'EV' : 'struct' 형식 재정의
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(23) : 'EV' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(33): error C2011: 'Input_Info' : 'struct' 형식 재정의
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(33) : 'Input_Info' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(46): error C2011: 'Scheduler' : 'struct' 형식 재정의
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(46) : 'Scheduler' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(58): error C2011: 'Scehdule' : 'struct' 형식 재정의
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(58) : 'Scehdule' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(67): error C2011: 'Track' : 'struct' 형식 재정의
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(67) : 'Track' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(77): error C2011: 'In_Event' : 'struct' 형식 재정의
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(77) : 'In_Event' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_a.h(4): error C2371: 'Move_A' : 재정의. 기본 형식이 다릅니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_a.h(11): error C2371: 'DoorOpen_A' : 재정의. 기본 형식이 다릅니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_a_body.h(29): error C2371: 'Move_A' : 재정의. 기본 형식이 다릅니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_a_body.h(213): error C2371: 'DoorOpen_A' : 재정의. 기본 형식이 다릅니다.
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(23) : 'EV' 선언을 참조하십시오.
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(33) : 'Input_Info' 선언을 참조하십시오.
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(46) : 'Scheduler' 선언을 참조하십시오.
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(58) : 'Scehdule' 선언을 참조하십시오.
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(67) : 'Track' 선언을 참조하십시오.
+                 c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\header.h(77) : 'In_Event' 선언을 참조하십시오.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_b.h(4): error C2371: 'Move_B' : 재정의. 기본 형식이 다릅니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_b.h(11): error C2371: 'DoorOpen_B' : 재정의. 기본 형식이 다릅니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_b_body.h(29): error C2371: 'Move_B' : 재정의. 기본 형식이 다릅니다.
+     1>c:\users\jhyun19\desktop\consoleapplication3\consoleapplication3\func_b_body.h(213): error C2371: 'DoorOpen_B' : 재정의. 기본 형식이 다릅니다.
+     1>"C:\Users\jhyun19\Desktop\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.37

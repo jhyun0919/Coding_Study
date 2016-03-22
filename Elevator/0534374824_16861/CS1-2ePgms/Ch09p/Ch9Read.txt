@@ -1,0 +1,12 @@
+The programs in this chapter run without modification runs as presented
+in the text. Programs 1 and 11 are code fragments that are not included.
+
+	1.	P9-01.C Demonstrate use of pointers
+	2.	P9-02.C Fun with pointers
+	3.	P9-03.C Add two numbers using pointers
+	4.	P9-04.C Using one pointer for many variables
+	5.	P9-05.C Using one variable with many pointers
+	6.	P9-06.C Using pointers to pointers
+	7.	P9-07.C Demonstrate size of pointers
+	8.	P9-08.C Convert seconds to hh:mm:ss
+	9.	P9-09.C Quadratic roots

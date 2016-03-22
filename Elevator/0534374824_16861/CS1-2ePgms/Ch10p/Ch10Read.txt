@@ -1,0 +1,32 @@
+The programs in this chapter run without modification runs as presented
+in the text. Programs 4 through 11 have been combined into one program (#4).
+Note that one function, findMinimum, was accidently deleted from the text.
+It is reproduced below for your information. (It is included in the solutions
+disk.)
+
+/*	================== rowMinimum ================== */
+/* This function calculates the minimum of the data in a row.
+	Pre:		A pointer to the row
+	Post:		Returns the minimum for that row.
+*/
+int rowMinimum ( int *rowPtr )
+{
+/*	Prototype Declarations */
+int smaller ( int first, int second ) ; 
+
+/*	Local Declarations */
+	int rowMin = INT_MAX ;
+	int column ;
+
+/*	Statements */
+	for ( column = 1 ; column <= *rowPtr ; column++ ) 
+		rowMin = smaller ( rowMin, *( rowPtr + column ) ) ;
+	return rowMin ;
+} 	/*rowMinimum */
+
+	1.	P10-01.C 	Print array with pointers
+	2.	P10-02.C		Pointers and the binary search
+	3.	P10-03.C		Multiply array elements by two
+	4.	P10-04.C		Selection sort revisited
+	4.	P10-0513.C	Dynamic arrays
+	5.	P10-14.C		Testing memory reuse

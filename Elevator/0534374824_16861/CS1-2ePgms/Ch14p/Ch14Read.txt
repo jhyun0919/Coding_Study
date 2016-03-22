@@ -1,0 +1,37 @@
+The programs in this chapter run without modification runs as presented
+in the text. 
+
+
+Programs 1, 2, 3, 4, 5, 6, 7, 8, 9, and 12 have been combined into
+<P14-LINK.H>. This header file is then used in programs 10, 11 and
+13. Also included is a header file, P14-DATA.h, for the data structures. 
+Finally, we have included a program, P14-TestSeq.c,  that is not in the text. 
+This program tests the sequential insertion of data into the linked list.
+
+Make sure that the files are located in the correct directory/folder and
+that their paths are correct.
+
+ 1.	P14-01.c		Insert a node
+ 2.	P14-02.c		Delete a node
+ 3.	P14-03.c		Locate node predecessor
+ 4.	P14-04.c		Search linked list
+ 5.	P14-05.c		Print linked list
+ 6.	P14-06.c		Avrage linked list
+ 7.	P14-07.c		Build chronological linked list
+ 8.	P14-08.c		Build key-sequenced linked list
+ 9.	P14-09.c		Remove nodes
+10.	P14-10.c		Test driver for linked list
+11.	P14-11.c		Append two linked lists
+12.	P14-12.c   		Append lists
+13.	P14-13.c   		Build lists
+14.	P14-14.c   		Build array of linked lists
+15.	P14-15.c   		Print array of linked lists
+16.	P14-getData.c		Reads structured data
+18.	P14-TestSeq.c		Tests sequential linked list insertions etc.
+
+The following programs, header files, and data files are provided.
+ 1.	P14-LINK.H		Linked list functions header file
+ 2.	P14-DATA.h		Structures for data
+ 3.	P14FILE1.DAT	File of integer data to build merge files
+ 4.    P14FILE2.DAT	File of integer data to build merge files
+ 5.	P14CHRON.DAT	File of integer data to build chronological list

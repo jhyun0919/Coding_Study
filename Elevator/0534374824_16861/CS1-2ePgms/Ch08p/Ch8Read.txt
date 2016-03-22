@@ -1,0 +1,25 @@
+The programs in this chapter run without modification runs as presented
+in the text with the exception of Program 8. It needs to be modified to
+include defined constants for TRUE and FALSE on the Borland compiler.
+Program 5 has been combined with program 4; program 7 with program 6; and,
+program 9 with program 8.
+
+	 	HISTOGRM.DAT
+	 1.	P08-01.C Print ten numbers per line
+	 2.	P08-02.C Squares array
+	 3.	P08-03.C Print input reversed
+	 4. 	P08-04.C Frequency and histogram
+	 5.	P08-05.C Generate a permutation
+	 6.	P08-06.C selectionSort
+	 7.	P08-07.C exchangeSmallest
+	 8.	P08-08.C bubbleSort
+	 9.	P08-09.C bubbleUp
+	10.	P08-10.C insertionSort
+	11.	P08-11.C insertOne
+	12.	P08-12.C Reprogrammed insertion sort
+	13.	P08-13.C Sequential search
+	14.	P08-14.C Binary search
+	15.	P08-15.C Fill two-dimensional array
+	16.	P08-16.C Convert table to one-dimensional array
+	17.	P08-17.C Fill Matrix
+	18.	P08-18.C Calculate row and column averages

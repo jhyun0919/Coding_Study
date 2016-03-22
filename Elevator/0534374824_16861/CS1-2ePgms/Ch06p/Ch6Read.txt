@@ -1,0 +1,37 @@
+The programs in this chapter run without modification runs as presented
+in the text. Programs 1 and 11 are code fragments and have had drivers added so that they will run. Programs 16, 17, and 18 are not executable programs and are not included.
+
+ 1.	P06-01.C 	Process control system example
+ 2.	P06-02.C 	A while loop to print numbers
+ 3.	P06-03.C 	Adding a list of numbers
+ 4.	P06-04.C 	Example of a for loop
+ 5.	P06-05.C 	A simple nested for loop
+ 6.	P06-06.C 	Two simple loops
+ 7.	P06-07.C 	Adding a list with the do_while
+ 8.	P06-08.C 	Comparison of while and do_while 
+ 9.	P06-09.C 	Compound interest
+10.	P06-10.C 	Print right triangle using nested for loops
+11.	P06-11.C 	Print rectangle using nested for loops
+12.	P06-12.C 	Print calendar month
+13.	P06-13.C 	Print sum of digits
+14.	P06-14.C 	Print number backward
+			In the first printing, this program is missing
+			a closing brace at the end of the first printf 
+			statement.
+15.	P06-15.C 	Convert binary to decimal
+16.	P06-16.C 	The for and while as perpetual loops (not 
+			included)
+17.	P06-17.C 	Using a break flag  (not included)
+18.	P06-18.C 	continue example  (not included)
+19.	P06-19.C 	sumEOF function
+20.	P06-20.C 	Powers function
+21.	P06-21.C 	smallestEOF function
+22.	P06-22.C 	anyPositiveEOF function
+23.	P06-23.C 	allPositiveEOF function
+24.	P06-24.C 	Iterative factorial function
+25.	P06-25.C 	Recursive factorial
+26.	P06-26.C 	Recursive Fibonacci
+27.	P06-27.C 	Towers of Hanoi
+			Depending on your tab settings, you may get a
+			slightly different output formatting.
+28.	P06-28.C 	The complete calculator

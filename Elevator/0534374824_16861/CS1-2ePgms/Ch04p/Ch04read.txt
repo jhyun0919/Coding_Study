@@ -1,0 +1,15 @@
+The programs in this chapter run without modification as presented in 
+the text.
+ 
+ 1.	P04-01.C	Sample program with subfunction
+ 2.	P04-02.C	Void function with a parameter
+ 3.	P04-03.C	Read a number and square it
+ 4.	P04-04.C	Print least significant digit
+ 5.	P04-05.C	Add two digits
+ 6.	P04-06.C 	Print six digits with comma
+ 7.	P04-07.C 	Strange College fees
+ 8.	P04-08.C	Quotient and remainder
+ 9.	P04-09.C 	Generate random numbers
+10.	P04-10.C 	Scaling for random number generation
+11.	P04-011.C	Calculator program
+12.	P04-012.C	Top-down development example

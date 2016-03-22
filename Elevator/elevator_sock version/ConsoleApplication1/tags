@@ -1,0 +1,77 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Append_Event_DoorOpen	func.h	/^void Append_Event_DoorOpen(){$/;"	f
+Append_Event_Move	func.h	/^void Append_Event_Move(){$/;"	f
+Append_Input_Info	func.h	/^void Append_Input_Info(Input_Info Info){$/;"	f
+Append_Schedule4Dependent_Event	func.h	/^void Append_Schedule4Dependent_Event(){$/;"	f
+Append_Schedule4Independent_Event	func.h	/^void Append_Schedule4Independent_Event(Input_Info Info){$/;"	f
+Count_Load_Passenger	func.h	/^int Count_Load_Passenger(In_Event *In_ptr){$/;"	f
+DOWN	header.h	2;"	d
+DoorOpen	func.h	/^void DoorOpen(){$/;"	f
+Door_SW	header.h	/^	int Door_SW;$/;"	m	struct:Scheduler
+EV	header.h	/^typedef struct EV {$/;"	s
+EV	header.h	/^} EV;$/;"	t	typeref:struct:EV
+Elv	func.h	/^EV Elv;$/;"	v
+EraseScheculer	func.h	/^void EraseScheculer(){$/;"	f
+Event_DoorOpen	header.h	/^typedef struct Event_DoorOpen {$/;"	s
+Event_DoorOpen	header.h	/^}Event_DoorOpen;$/;"	t	typeref:struct:Event_DoorOpen
+Event_Move	header.h	/^typedef struct Event_Move {$/;"	s
+Event_Move	header.h	/^} Event_Move;$/;"	t	typeref:struct:Event_Move
+IDLE	header.h	3;"	d
+In_Event	header.h	/^typedef struct In_Event{$/;"	s
+In_Event	header.h	/^} In_Event;$/;"	t	typeref:struct:In_Event
+In_ptr	header.h	/^	struct In_Event *In_ptr;$/;"	m	struct:Track	typeref:struct:Track::In_Event
+Info_ptr	header.h	/^	Input_Info *Info_ptr;$/;"	m	struct:Scheduler
+Init_Elevator	func.h	/^void Init_Elevator(EV *Elv){$/;"	f
+Init_Scheduler	func.h	/^void Init_Scheduler(){$/;"	f
+Init_Track	func.h	/^void Init_Track(Track T[]){$/;"	f
+Input_Info	header.h	/^typedef struct Input_Info {$/;"	s
+Input_Info	header.h	/^} Input_Info;$/;"	t	typeref:struct:Input_Info
+Max_Level	header.h	8;"	d
+Move	func.h	/^void Move(){$/;"	f
+MoveDown	func.h	/^void MoveDown(){$/;"	f
+MoveUp	func.h	/^void MoveUp(){$/;"	f
+Move_SW	header.h	/^	int Move_SW;$/;"	m	struct:Scheduler
+OFF	header.h	6;"	d
+ON	header.h	5;"	d
+Out_passenger	header.h	/^	int Out_passenger;$/;"	m	struct:Track
+Scheduler	header.h	/^typedef struct Scheduler {$/;"	s
+Scheduler	header.h	/^} Scheduler;$/;"	t	typeref:struct:Scheduler
+Scheduler2Track	func.h	/^int Scheduler2Track(Input_Info *Info){$/;"	f
+Text2Scheduler	func.h	/^void Text2Scheduler(Input_Info Info){$/;"	f
+Track	header.h	/^typedef struct Track {$/;"	s
+Track	header.h	/^} Track;$/;"	t	typeref:struct:Track
+Track_1	func.h	/^Track Track_1[Max_Level];$/;"	v
+Track_On_Off	func.h	/^int Track_On_Off(Track T){$/;"	f
+UP	header.h	1;"	d
+anyDownRequest	func.h	/^int anyDownRequest(){$/;"	f
+anyUpRequest	func.h	/^int anyUpRequest(){$/;"	f
+cur_level	header.h	/^	int cur_level;$/;"	m	struct:EV
+direction	header.h	/^	int direction;$/;"	m	struct:EV
+direction	header.h	/^	int direction;$/;"	m	struct:In_Event
+direction	header.h	/^	int direction;$/;"	m	struct:Input_Info
+error_handling	sock.h	/^void error_handling(char *msg)$/;"	f
+head	func.h	/^Scheduler *head, *tail;$/;"	v
+load_level	header.h	/^	int load_level;$/;"	m	struct:Input_Info
+next	header.h	/^	struct In_Event *next;$/;"	m	struct:In_Event	typeref:struct:In_Event::In_Event
+next	header.h	/^	struct Input_Info *next;$/;"	m	struct:Input_Info	typeref:struct:Input_Info::Input_Info
+next	header.h	/^	struct Scheduler *next;$/;"	m	struct:Scheduler	typeref:struct:Scheduler::Scheduler
+passenger	header.h	/^	int passenger;$/;"	m	struct:In_Event
+passenger	header.h	/^	int passenger;$/;"	m	struct:Input_Info
+printBuidling	func.h	/^void printBuidling(){$/;"	f
+recv_msg	sock.h	/^int recv_msg(int sock, char msg[5])$/;"	f
+send_msg	sock.h	/^int send_msg(int sock, char msg[8])$/;"	f
+sock_connect	sock.h	/^int sock_connect(char **ip, char **port)$/;"	f
+tail	func.h	/^Scheduler *head, *tail;$/;"	v
+tick	func.h	/^int tick;$/;"	v
+tick	header.h	/^	int tick;$/;"	m	struct:Input_Info
+tick	header.h	/^	int tick;$/;"	m	struct:Scheduler
+unload_level	header.h	/^	int unload_level[20];$/;"	m	struct:In_Event
+unload_level	header.h	/^	int unload_level[20];$/;"	m	struct:Input_Info
+weight	header.h	/^	int weight;$/;"	m	struct:EV
+wer	header.h	/^	int wer;$/;"	m	struct:Event_DoorOpen
+wer	header.h	/^	int wer;$/;"	m	struct:Event_Move
